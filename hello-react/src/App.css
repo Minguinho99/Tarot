@@ -1,0 +1,204 @@
+
+@font-face { font-family: 'WindyLavender'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.0/WindyLavender.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'YiSunShinRegular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YiSunShinRegular.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'HSBombaram'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'InkLipquid'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'BMYEONSUNG'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMYEONSUNG.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'EBSJSKMedium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/EBSJSKMedium.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'SangSangShin'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/SangSangShin.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Kanibuk'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.5/Kanibuk.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'BBTreeCB'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeCB.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'BBTreeTL'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeTL.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'LeeHyunJi'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/LeeHyunJi.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+#background {
+ /* background-image : url('./tarotcard_image/sky.jpg'); */
+ background-color : rgb(34, 31, 42); 
+ height: 100vh;
+}
+
+#startimg {
+  width : 100%;
+  height : auto;
+}
+
+#gohome {
+  font-family :  'BBTreeTL';
+  font-size : 200%;
+  margin-top : 0%;
+  margin-left : 85.7%;
+  border-radius : 10px;
+  border-style : solid;
+  background-color : rgb(64, 60, 60);
+  color : #ab7761;
+  border : 0;
+}
+
+#cardresult {
+  margin-top : 10%;
+  margin-left : 6.2%;
+  width : 25%;
+  margin-bottom : -30%;
+}
+
+#textresult1 {
+  font-family : 'HSBombaram';
+  color : white;
+  margin-top : 33%;
+  margin-left : 10%;
+  width : 25%;
+}
+#textresult2 {
+  font-family : 'HSBombaram';
+  color : white;
+  margin-top : -1.3%;
+  margin-left : 40%;
+  width : 25%;
+}
+#textresult3 {
+  font-family : 'HSBombaram';
+  color : white;
+  margin-top : -1.1%;
+  margin-left : 80%;
+  width : 25%;
+}
+
+#choose1 {
+  margin-top : 10%;
+  margin-left : 20%;
+  width: 60%;
+  border-radius : 20px;
+  border-style : solid;
+  background-color : black;
+  color : #b9f2ff;
+  font-size : 200%;
+  text-align : center;
+  position: absolute;
+  font-family : 'BBTreeTL';
+}
+
+#cardshow {
+  margin-top : 5%;
+  margin-left : 10%;
+  width : 20%;
+  height : auto;
+  margin-bottom : -30%;
+  opacity : 1;
+}
+
+#resultbutton {
+  font-family :  'BBTreeTL';
+  font-size : 200%;
+  margin-left : 43%;
+  margin-top :18%;
+  border-radius : 5px;
+
+  padding : 1%;
+  color: white;
+  text-align: 1%;
+  font-display: center;
+  background : #7a6055;
+  border : 0;
+}
+
+#choose {
+  margin-top : 30%;
+  margin-left : 20%;
+  width: 60%;
+  border-radius : 20px;
+  border-style : solid;
+  background-color : black;
+  color : #b0cef3;
+  font-size : 200%;
+  text-align : center;
+  position: absolute;
+  font-family : 'BBTreeTL';
+}
+
+#backimg1 {
+  background-color : black;
+  margin-top : 1%;
+  margin-left : 4%;
+  width : 15%;
+  height : auto;
+}
+
+#backimg2 {
+  background-color : black;
+  margin-top : 1%;
+  margin-left : -11.5%;
+  width : 15%;
+  height : auto;
+}
+
+#backimg3 {
+  background-color : black;
+  margin-top : 1%;
+  margin-left : 6%;
+  width : 15%;
+  height : auto;
+}
+
+#backimg4 {
+  background-color : black;
+  margin-top : 1%;
+  margin-left : 7%;
+  width : 15%;
+  height : auto;
+}
+
+#startbackground {
+  background-image : url('./tarotcard_image/startimg.png');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#startsmall{
+  margin-top : 18%;
+  margin-left : 10%;
+  margin-right : 10%;
+  font-size : 190%;
+  font-family : 'Kanibuk';
+  font-display : center;
+  color : white;
+}
+
+#startback {
+  margin-top : 0%;
+  margin-left : 10%;
+  margin-right : 10%;
+  font-size : 450%;
+  font-family : 'Kanibuk';
+  font-display : center;
+  color : #ffb8b8;
+}
+
+#startsmall2{
+  margin-top : 0%;
+  margin-left : 10.5%;
+  margin-right : 10%;
+  font-size : 200%;
+  font-family : 'SangSangShin';
+  font-display : center;
+  color : white;
+}
+
+#startbutton {
+    /*vertical-align: middle;*/
+    margin-top : 5%;
+    margin-left : 10%;
+    margin-right : 35%;
+    opacity: 1;
+    padding : 1%;
+    color: #ffb8b8;
+    text-align: 1%;
+    font-size: 150%;
+    font-family : 'Kanibuk';
+    font-display: center;
+    background : #405360;
+    border-radius : 18px;
+    outline: #ffb8b8;
+    border : 0;
+}
